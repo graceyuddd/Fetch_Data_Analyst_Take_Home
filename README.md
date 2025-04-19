@@ -1,2 +1,2 @@
-# Fetch_Data_Analyst_Take_Home
+# Fetch Data Analyst Take Home
 Fetch Rewards SDA take home assessment solution.
