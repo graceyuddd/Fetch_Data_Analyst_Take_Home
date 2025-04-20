@@ -9,7 +9,7 @@
 
 ### 📊 Exploratory Data Analysis Reports
 
-> Download and open these HTML files locally to view the full interactive reports:
+Download and open these HTML files locally to view the full interactive reports:
 
 - 👉 [User EDA Report](./Exploratory%20Data%20Analysis/Users_EDA_Analysis_Report.html)
 - 👉 [Product EDA Report](./Exploratory%20Data%20Analysis/Products_EDA_Analysis_Report.html)
