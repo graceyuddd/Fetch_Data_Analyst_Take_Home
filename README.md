@@ -2,7 +2,7 @@
 
 ## Part I: Explore the Data
 
-🗂️ Please refer to the exploratory notebook:  
+🗂️ Please refer to the notebook:  
 📓 👉 [Fetch DA Take Home - EDA.ipynb](./Exploratory%20Data%20Analysis/Fetch%20DA%20Take%20Home%20-%20EDA.ipynb)
 
 ---
