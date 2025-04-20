@@ -57,34 +57,16 @@ Some entries contain placeholders or unclear names, raising questions about data
 
 📁 Please refer to the full query scripts in: 
    👉 [`SQL_Queries`](./SQL_Queries/)  
-Key assumptions and query logic are summarized below.
+including comments on key assumptions and step‑by‑step logic for each business question.
+
+
 
 ---
 
-### 🔒 Closed-Ended Question  
-**What are the top 5 brands by receipts scanned among users 21 and over?**
 
-#### 🧠 Assumptions:
-- Age is calculated from `BIRTH_DATE`.
-- “Receipts scanned” is defined as unique `RECEIPT_ID`s tied to a valid brand.
-- Only users age 21 and older are included.
+## Part III: Slack Message with Stakeholders
 
----
+📁 Please refer to the full query scripts in: 
+   👉 [`SQL_Queries`](./SQL_Queries/)  
+including comments on key assumptions and step‑by‑step logic for each business question.
 
-### 🔓 Open-Ended Question  
-**Who are Fetch’s power users?**
-
-#### 🧠 Assumptions:
-- Power users are defined as those in the top 1% of both receipts scanned and total sales.
-- `FINAL_SALE` is used to measure transaction value.
-
----
-
-### 🔓 Open-Ended Question  
-**Which is the leading brand in the Dips & Salsa category?**
-
-#### 🧠 Assumptions:
-- Products are filtered where `CATEGORY_3 = 'Dips & Salsa'`.
-- “Leading brand” is defined by total sales volume (`FINAL_SALE`).
-
----
