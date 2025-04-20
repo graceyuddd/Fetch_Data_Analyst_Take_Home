@@ -15,7 +15,7 @@ Download and open these HTML files locally to view the full interactive reports:
 - 👉 [Product EDA Report](./Exploratory%20Data%20Analysis/Products_EDA_Analysis_Report.html)
 - 👉 [Transaction EDA Report](./Exploratory%20Data%20Analysis/Transactions_EDA_Analysis_Report.html)
 
-> ⚠️ **Note:** GitHub does not render interactive HTML files in-browser. Please download and open them locally to explore the full reports.
+> ⚠️ Note: GitHub does not render interactive HTML files in-browser. Please download and open them locally to explore the full reports.
 
 ---
 
