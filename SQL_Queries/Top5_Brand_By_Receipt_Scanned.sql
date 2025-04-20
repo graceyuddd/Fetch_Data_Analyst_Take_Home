@@ -30,5 +30,5 @@ WITH Receipt_CNT_BY_Brand AS(
 SELECT * FROM
 	(SELECT *,
 		 RANK() OVER(ORDER BY CNT DESC) AS RNK
-	FROM Receipt_CNT_BY_Brand)
+	   FROM Receipt_CNT_BY_Brand)
 WHERE RNK <= 5;
