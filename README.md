@@ -52,3 +52,4 @@ Some entries contain placeholders or unclear names, raising questions about data
 
 ---
 
+## Part II: Provide SQL Queries
