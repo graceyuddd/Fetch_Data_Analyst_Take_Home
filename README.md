@@ -55,7 +55,8 @@ Some entries contain placeholders or unclear names, raising questions about data
 
 ## Part II: Provide SQL Queries
 
-📁 Please refer to the full query scripts in:  
+📁 Please refer to the full query scripts in: 
+
 👉 [`SQL_Queries`](./SQL_Queries/)  
 Key assumptions and query logic are summarized below.
 
