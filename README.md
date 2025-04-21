@@ -71,7 +71,7 @@ including comments on key assumptions and step‑by‑step logic for each busine
 Hi team! I wanted to share a quick update from my initial analysis of the datasets:
 
 #### 🔍 Key Data Quality Issues
-- **Missing Demographics:** Nearly **99.5%** of Health & Wellness sales couldn’t be linked to user demographics. Only **17 out of ~3,000 customers** had matching records in Users Dataset, limiting our ability to analyze generational trends or segment customers effectively.
+- **Missing Demographics:** Nearly **99.5%** of Health & Wellness sales couldn’t be linked to user demographics. Only **17 out of over 3,000 customers who scanned Health & Wellness products** had matching records in Users Dataset, limiting our ability to analyze generational trends or segment customers effectively.
 - **User Data Missing Values:** Fields like `LANGUAGE` (missing ~30%) and `BIRTH_DATE` (missing ~4%) show significant gaps.
 - **Inconsistent Quantity Values:** The `FINAL_QUANTITY` field in the Transactions dataset contained mixed types (e.g., the string `'zero'`).  
   Based on the receipt-scanning context, I standardized all zeros to **1**, assuming these reflect actual purchases.  
@@ -82,7 +82,8 @@ Hi team! I wanted to share a quick update from my initial analysis of the datase
   This points to strong brand preference and could inform targeted promotions or brand partnerships through Fetch.
 
 #### ✅ Next Steps
-- I recommend reviewing our **data collection practices** and taking a closer look at the **user-transaction-product mapping processes** to address the large gaps in demographic coverage. Improving data completeness will significantly enhance our ability to surface meaningful, actionable insights.
+- I recommend reviewing our **data collection practices** and taking a closer look at the **user–transaction–product mapping processes** to address the large gaps in demographic coverage. Improving data completeness will significantly enhance our ability to surface meaningful, actionable insights.
+- Additionally, I’d appreciate clarification on whether the `FINAL_SALE` field reflects **unit price** or the **total sale for the line item**—this would help ensure accurate calculations in this and future analyses.
 
 
 Let me know if you'd like to dive deeper into any of these findings or explore additional angles!
