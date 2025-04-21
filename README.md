@@ -66,7 +66,23 @@ including comments on key assumptions and step‑by‑step logic for each busine
 
 ## Part III: Slack Message with Stakeholders
 
-📁 Please refer to the full query scripts in: 
-   👉 [`SQL_Queries`](./SQL_Queries/)  
-including comments on key assumptions and step‑by‑step logic for each business question.
+### 📢 Summary of Findings
 
+Hi team! I wanted to share a quick update from my initial analysis of the datasets:
+
+#### 🔍 Key Data Quality Issues
+- **Missing Demographics:** Nearly **99.5%** of Health & Wellness sales couldn’t be linked to user demographics. Only **17 out of ~3,000 customers** had matching records in Users Dataset, limiting our ability to analyze generational trends or segment customers effectively.
+- **User Data Missing Values:** Fields like `LANGUAGE` (missing ~30%) and `BIRTH_DATE` (missing ~4%) show significant gaps.
+- **Inconsistent Quantity Values:** The `FINAL_QUANTITY` field in the Transactions dataset contained mixed types (e.g., the string `'zero'`).  
+  Based on the receipt-scanning context, I standardized all zeros to **1**, assuming these reflect actual purchases.  
+  _(Happy to revisit this assumption if needed.)_
+
+#### 📈 Interesting Trend
+- **TOSTITOS** emerged as the top brand in the **Dips & Salsa** category, leading in both quantity sold and customer reach.  
+  This points to strong brand preference and could inform targeted promotions or brand partnerships through Fetch.
+
+#### ✅ Next Steps
+- I recommend reviewing our **data collection practices** and taking a closer look at the **user-transaction-product mapping processes** to address the large gaps in demographic coverage. Improving data completeness will significantly enhance our ability to surface meaningful, actionable insights.
+
+
+Let me know if you'd like to dive deeper into any of these findings or explore additional angles!
