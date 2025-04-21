@@ -35,7 +35,7 @@ SELECT
 /* Conclusion
  * Approximately 99.5% of Health & Wellness sales are attributed to customers without a recorded birth date, 
  * indicating substantial demographic gaps in our data. 
- * Among the transactions for which generation can be determined, Baby Boomers slightly lead, 
- * followed by Millennials and then Gen X. 
+ * Among the transactions for which generation can be determined, Baby Boomers slightly lead(0.2%), 
+ * followed by Millennials(0.14%) and then Gen X(0.13%). 
  * Given the overwhelming “Unknown” segment, any conclusions about generational purchasing patterns should be treated with caution.
  */
