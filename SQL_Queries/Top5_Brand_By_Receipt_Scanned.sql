@@ -34,8 +34,8 @@ SELECT * FROM
 	   FROM Receipt_CNT_BY_Brand)
 WHERE RNK <= 5;
 
-/*Findings and Conclusions:
-The top scanned brand for users aged 21+ was "Unknown" (58 receipts), highlighting significant gaps in barcode-to-product mapping.
-Identifiable brands with highest engagement were Dove and Nerds Candy (3 receipts each).
-Several popular brands (Sour Patch Kids, Great Value, Meijer, Coca-Cola, Trident, Hershey’s) had moderate and equal engagement 
-(2 receipts each).*/
+/* Findings and Conclusions:
+ * The top scanned brand for users aged 21+ was "Unknown" (58 receipts), highlighting significant gaps in barcode-to-product mapping.
+ * Identifiable brands with highest engagement were Dove and Nerds Candy (3 receipts each).
+ * Several popular brands (Sour Patch Kids, Great Value, Meijer, Coca-Cola, Trident, Hershey’s)- 
+ * - had moderate and equal engagement (2 receipts each).*/
