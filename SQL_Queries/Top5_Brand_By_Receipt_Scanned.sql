@@ -6,6 +6,7 @@
 --- Age is calculated accurately from BIRTH_DATE
 --- RANK() is used to reflect true ranking order and include all ties without inflating position counts
 
+-- CTE for calulating total number of receipts scanned among users 21 and over for each brand
 WITH Receipt_CNT_BY_Brand AS(
 	SELECT 
 	  P.brand,
@@ -32,3 +33,9 @@ SELECT * FROM
 		 RANK() OVER(ORDER BY CNT DESC) AS RNK
 	   FROM Receipt_CNT_BY_Brand)
 WHERE RNK <= 5;
+
+/*Findings and Conclusions:
+The top scanned brand for users aged 21+ was "Unknown" (58 receipts), highlighting significant gaps in barcode-to-product mapping.
+Identifiable brands with highest engagement were Dove and Nerds Candy (3 receipts each).
+Several popular brands (Sour Patch Kids, Great Value, Meijer, Coca-Cola, Trident, Hershey’s) had moderate and equal engagement 
+(2 receipts each).*/
