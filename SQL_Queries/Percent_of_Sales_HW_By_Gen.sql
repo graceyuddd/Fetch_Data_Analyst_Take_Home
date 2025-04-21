@@ -22,7 +22,7 @@ SELECT
 	  , SUM(final_quantity) tot_quantity
 	  , SUM(final_sale*final_quantity) tot_sale
 	  , count(DISTINCT receipt_id) receipt_cnt
-	  , COUNT(DISTINCT ID) AS user_count
+	  , COUNT(DISTINCT user_id) AS user_count
 	  , ROUND(SUM(final_sale * final_quantity) * 100.0 / SUM(SUM(final_sale * final_quantity)) OVER (), 2) AS pct_of_total_hw_sales
 	FROM transactions T
 	LEFT JOIN users U 
