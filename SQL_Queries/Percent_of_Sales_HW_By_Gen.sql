@@ -39,6 +39,6 @@ SELECT
  * As a result, approximately 99.5% of the Health & Wellness sales are attributed to customers whose demographic details are unknown. 
  * This significantly limits our ability to perform accurate generational analysis or 
  * draw reliable conclusions about purchasing behavior across generations.
- * Among the limited known data, Baby Boomers show slightly higher purchasing activity, 
- * followed by Millennials and then Gen X, but given the tiny sample size (17 users), this insight has minimal reliability.
+ * Among the limited known data, Baby Boomers (0.2%) show slightly higher purchasing activity, 
+ * followed by Millennials (0.14%) and then Gen X (0.13%), but given the tiny sample size (17 users), this insight has minimal reliability.
  */
