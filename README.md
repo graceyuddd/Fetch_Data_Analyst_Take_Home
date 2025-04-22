@@ -73,9 +73,9 @@ Hi team! I wanted to share a quick update from my initial analysis of the datase
 #### 🔍 Key Data Quality Issues
 - **Missing Demographics:** Nearly **99.5%** of Health & Wellness sales couldn’t be linked to user demographics. Only **17 out of over 3,000 customers who scanned Health & Wellness products** had matching records in Users Dataset, limiting our ability to analyze generational trends or segment customers effectively.
 - **User Data Missing Values:** Fields like `LANGUAGE` (missing ~30%) and `BIRTH_DATE` (missing ~4%) show significant gaps.
-- **Inconsistent Quantity Values:** The `FINAL_QUANTITY` field in the Transactions dataset contained mixed types of data (e.g., the string `'zero'`).  
-  Based on the receipt-scanning context, I standardized all zeros to **1**, assuming these reflect actual purchases.  
-  _(Happy to revisit this assumption if needed.)_
+- **Inconsistent & Invalid Quantity Values:** The `FINAL_QUANTITY` field in the Transactions dataset contained mixed data types, including entries like the string 'zero'.
+Given the receipt-scanning context, I standardized all 0 values to 1, under the assumption that scanned items represent actual purchases.
+(Open to revisiting this assumption if further context suggests otherwise.)
 
 #### 📈 Interesting Trend
 - **TOSTITOS** emerged as the top brand in the **Dips & Salsa** category, leading in both quantity sold and customer reach.  
